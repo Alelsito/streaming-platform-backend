@@ -1,5 +1,6 @@
 type Query {
     getMovies: [Movie]
+    login(email: String, password: String): String
 }
 
 type Mutation {
